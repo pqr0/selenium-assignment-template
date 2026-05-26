@@ -161,4 +161,10 @@ public class HackerNewsTest extends BaseTest {
 
         assertEquals("yes", userPage.getShowDeadValue());
     }
+
+    //@Test
+    //public void screenshotFailureDemoTest() {
+        //driver.get(Config.get("base.url"));
+        //fail("Intentional failure to test screenshot");
+    //}
 }

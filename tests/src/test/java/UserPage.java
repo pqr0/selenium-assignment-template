@@ -3,7 +3,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.Select;
 
 public class UserPage extends BasePage {
-    private final By aboutTextarea = By.name("about");
+    private final By aboutTextarea = By.xpath("//textarea[@name='about']");
     private final By updateButton = By.xpath("//input[@type='submit' and @value='update']");
     private final By showDeadDropdown = By.name("showd");
     private final By noProcrastDropdown = By.name("nopro");

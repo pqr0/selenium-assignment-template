@@ -2,9 +2,9 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
-    private final By loginLink = By.linkText("login");
-    private final By logoutLink = By.linkText("logout");
-    private final By submitLink = By.linkText("submit");
+    private final By loginLink = By.xpath("//a[contains(@href,'login')]");
+    private final By logoutLink = By.xpath("//a[contains(@href,'logout')]");
+    private final By submitLink = By.xpath("//a[contains(@href,'submit')]");
     private final By firstStoryTitle = By.xpath("(//span[@class='titleline']/a)[1]");
     private final By userLink = By.xpath("//a[contains(@href, 'user?id=selass')]");
 
